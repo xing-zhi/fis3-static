@@ -27,6 +27,7 @@
     "fis-parser-babel-6.x": "^6.20.0",
     "fis-parser-node-sass": "^1.0.1",
     "fis3": "^3.4.32",
+    "fis3-optimizer-dfy-html-minifier": "^1.0.1",
     "fis3-postprocessor-autoprefixer": "^1.0.0"
   }
 }

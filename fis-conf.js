@@ -23,4 +23,13 @@ fis.media('prod')
   })
   .match('*.js', {
     optimizer: fis.plugin('uglify-js')
+  })
+  .match('*.html', {
+    optimizer: fis.plugin('dfy-html-minifier', {
+      removeComments: true,
+      collapseWhitespace: true,
+      removeAttributeQuotes: true,
+      minifyJS: true,
+      minifyCSS: true
+    })
   });
