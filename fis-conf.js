@@ -8,5 +8,8 @@ fis.match('scss/(*.scss)', {
   parser: fis.plugin('node-sass'),
   rExt: '.css',
   // change css folder from scss to css
-  release: '/css/$1'
+  release: '/css/$1',
+  postprocessor: fis.plugin('autoprefixer', {
+    browsers: ['> 1%', 'last 2 versions']
+  })
 });
