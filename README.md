@@ -41,3 +41,14 @@ $ npm run release
 
 # Node version
 Node 7.x is not surpoted by fis3 at present, use Node 6.x instead.
+
+# Features
++ [x] ES6 to ES5
++ [x] SCSS to CSS
++ [x] add prefixer to CSS3 properties
++ [x] add hash to file name
++ [x] minify css
++ [x] minify js
++ [x] minify html
++ [x] compress png
++ [x] css sprite
