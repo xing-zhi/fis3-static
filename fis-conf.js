@@ -13,3 +13,8 @@ fis.match('scss/(*.scss)', {
     browsers: ['> 1%', 'last 2 versions']
   })
 });
+
+fis.media('prod')
+  .match('*.{js, scss, css, png, jpeg, jpg}', {
+    useHash: true
+});

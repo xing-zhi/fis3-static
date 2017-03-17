@@ -6,7 +6,7 @@
   "scripts": {
     "start": "fis3 server start",
     "dev": "fis3 release -r ./src -wL",
-    "release": "del-cli -f dist && fis3 release -r ./src -d ./dist"
+    "release": "del-cli -f dist && fis3 release prod -r ./src -d ./dist"
   },
   "repository": {
     "type": "git",
