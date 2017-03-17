@@ -5,3 +5,20 @@ html {
         color: #333;
     }
 }
+
+.share {
+    .share-wechat {
+        background: url(../imgs/share-wechat.png?__sprite) no-repeat;
+    }
+    .share-qzone {
+        background: url(../imgs/share-qzone.png?__sprite) no-repeat;
+    }
+    .share-weibo {
+        background: url(../imgs/share-weibo.png?__sprite) no-repeat;
+    }
+    .share-item {
+        display: inline-block;
+        width: 43px;
+        height: 43px;
+    }
+}

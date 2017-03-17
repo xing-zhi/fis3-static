@@ -11,6 +11,14 @@ fis.match('scss/(*.scss)', {
   release: '/css/$1',
   postprocessor: fis.plugin('autoprefixer', {
     browsers: ['> 1%', 'last 2 versions']
+  }),
+  useSprite: true
+});
+
+fis.match('::package', {
+  spriter: fis.plugin('csssprites', {
+    margin: 10,
+    layout: 'matrix'
   })
 });
 
