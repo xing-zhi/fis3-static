@@ -1,0 +1,28 @@
+{
+  "name": "fis3-static",
+  "version": "1.0.0",
+  "description": "Fis3 config for developing static pages.",
+  "main": "index.js",
+  "scripts": {
+    "start": "fis3 server start",
+    "dev": "fis3 release -r ./src -wL",
+    "release": "fis3 release -r ./src -d ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xing-zhi/fis3-static.git"
+  },
+  "keywords": [
+    "fis3",
+    "static page"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xing-zhi/fis3-static/issues"
+  },
+  "homepage": "https://github.com/xing-zhi/fis3-static#readme",
+  "devDependencies": {
+    "fis3": "^3.4.32"
+  }
+}
