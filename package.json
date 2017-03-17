@@ -24,6 +24,7 @@
   "homepage": "https://github.com/xing-zhi/fis3-static#readme",
   "devDependencies": {
     "fis-parser-babel-6.x": "^6.20.0",
+    "fis-parser-node-sass": "^1.0.1",
     "fis3": "^3.4.32"
   }
 }
