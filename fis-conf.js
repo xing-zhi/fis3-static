@@ -20,4 +20,7 @@ fis.media('prod')
   })
   .match('*.{scss, css}', {
     optimizer: fis.plugin('clean-css')
+  })
+  .match('*.js', {
+    optimizer: fis.plugin('uglify-js')
   });
