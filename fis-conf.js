@@ -32,4 +32,7 @@ fis.media('prod')
       minifyJS: true,
       minifyCSS: true
     })
+  })
+  .match('*.png', {
+    optimizer: fis.plugin('png-compressor')
   });
