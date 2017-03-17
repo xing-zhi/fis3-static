@@ -38,3 +38,6 @@ $ npm run release
         ├── imgs
         ├── index.html
         └── js
+
+# Node version
+Node 7.x is not surpoted by fis3 at present, use Node 6.x instead.
