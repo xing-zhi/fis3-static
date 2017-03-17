@@ -17,4 +17,7 @@ fis.match('scss/(*.scss)', {
 fis.media('prod')
   .match('*.{js, scss, css, png, jpeg, jpg}', {
     useHash: true
-});
+  })
+  .match('*.{scss, css}', {
+    optimizer: fis.plugin('clean-css')
+  });
